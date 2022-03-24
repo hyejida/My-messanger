@@ -159,3 +159,7 @@ button {
   color: white;
   background: #ff6937;
 }
+
+input:focus {
+  outline: none;
+}
