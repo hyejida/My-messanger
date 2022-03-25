@@ -1,4 +1,7 @@
 :root {
+  /* color */
   --color-yellow: #fae100;
   --color-light-gray: rgb(0, 0, 0, 0.4);
+  /* space */
+  --horizontal-space: 25px;
 }
