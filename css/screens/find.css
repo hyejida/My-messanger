@@ -1,7 +1,20 @@
+.screen-header__icon {
+  position: relative;
+}
+.header__notification__dot {
+  position: absolute;
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  right: -5px;
+  top: -5px;
+}
+
 .find-icons {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding-bottom: 25px;
 }
 
 .find-icons__icon {
@@ -13,4 +26,104 @@
 .find-icons__icon i {
   font-size: 35px;
   margin-bottom: 10px;
+}
+
+.find-recommended-friends {
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+  margin: 25px 0;
+  padding: 25px 0;
+}
+
+.find-recommended-friends_title {
+  color: var(--color-light-gray);
+}
+
+.find-recommended-friends span {
+  margin: 100px 0;
+  text-align: center;
+  display: block;
+  color: var(--color-light-gray);
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-light-gray);
+  margin-bottom: 25px;
+}
+
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-post__title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.open-post__tags {
+  text-transform: uppercase;
+  color: var(--color-gray);
+}
+
+.open-post__memebers {
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.open-post__img {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.open-post__memebers-count {
+  color: var(--color-light-gray);
+  font-size: 14px;
+}
+
+.open-post__memebers .divider {
+  width: 1.5px;
+  height: 15px;
+  background-color: var(--color-light-gray);
+  margin: 0 5px;
+}
+
+.open-post__members-status {
+  color: #fc8dcf;
+}
+
+.open-post__photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  object-fit: fill;
+  border: 1px solid rgb(201, 200, 200);
+}
+
+.open-post__column:nth-child(2) {
+  position: relative;
+}
+
+.open-post__like-count {
+  background-color: rgb(0, 0, 0, 0.6);
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 12px;
+}
+
+.open-post__like-count span {
+  margin-left: 5px;
 }

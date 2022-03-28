@@ -1,7 +1,10 @@
 :root {
   /* color */
   --color-yellow: #fae100;
+  --color-gray: #969595;
   --color-light-gray: rgb(0, 0, 0, 0.4);
+
   /* space */
   --horizontal-space: 25px;
+  --main-border: 1px solid rgb(0, 0, 0, 0.5);
 }
