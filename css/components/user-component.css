@@ -52,3 +52,15 @@
   margin-bottom: 10px;
   display: block;
 }
+
+.user-component__number {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__number span {
+  margin: 8px 0 0 5px;
+}
+.user-component__column .comment-icon {
+  font-size: 22px;
+}
