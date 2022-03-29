@@ -23,6 +23,19 @@
   position: absolute;
   left: 18px;
   top: -9px;
+  animation: notificationAnimation 2s ease-in-out infinite;
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(45deg);
+  }
+  100% {
+    transform: none;
+  }
 }
 
 .nav__notification__dot {
