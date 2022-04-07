@@ -46,11 +46,11 @@
 }
 
 #login-form input:focus {
-  border-color: var(--color-yellow);
+  border-color: var(--color-light-green);
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--color-yellow);
+  background-color: var(--color-light-green);
   cursor: pointer;
   padding: 20px 0;
   border-radius: 5px;
