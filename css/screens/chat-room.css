@@ -154,10 +154,10 @@
 }
 
 .reply__column button {
-  background-color: var(--color-light-green);
+  background-color: var(--color-medium-green);
   border-radius: 50%;
-  width: 35px;
-  height: 35px;
+  width: 36px;
+  height: 36px;
   border: none;
 }
 
