@@ -12,6 +12,7 @@
 .welcome-header__title {
   margin-bottom: 20px;
   font-size: 25px;
+  color: var(--color-brown);
 }
 
 .welcome-header__text {
@@ -50,7 +51,8 @@
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--color-light-green);
+  background-color: var(--color-medium-green);
+  color: var(--color-brown);
   cursor: pointer;
   padding: 20px 0;
   border-radius: 5px;
